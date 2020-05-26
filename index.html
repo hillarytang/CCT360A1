@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Created by Hillary Tang, with inspiration from bonappetit.com -->
+	<meta charset="UTF-8">
+	<title>Ramen</title>
+	<link type="text/css" href="css/normalize.css" rel="stylesheet">
+	<link type="text/css" href="css/styles.css" rel="stylesheet">
+	<link type="text/css" href="css/innerpage.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!--Side nav code inspired by https://www.w3schools.com/howto/howto_js_sidenav.asp -->
+    <header>
+        <nav class="site-header">
+			<div class="nav-button" onclick="openNav()">
+				<i class="material-icons">menu</i>
+			</div>
+			<div class="title-div">
+				<a class="header-logo" href="index.html">ramen</a>
+			</div>
+			<div class="header-engagement-links">
+				<a id="subscribe">S u b s c r i b e</a>
+				<div class="nav-button"><a><i class="material-icons search">search</i></a></div>
+			</div>
+		</nav>
+	</header>
+
+	<nav id="mySidenav" class="sidenav">
+		<div class="sidenav-title">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html"><div class="title">ramen</div></a>
+		</div>
+		<ul>
+			<li class="links"><a href="history.html">History</a></li>
+			<li class="links"><a href="ingredients.html">Ingredients</a></li>
+			<li class="links"><a href="index.html">Related Dishes</a></li>
+			<li class="links"><a href="index.html">In Japan</a></li>
+			<li class="links"><a href="index.html">Out of Japan</a></li>
+		</ul>
+		<h4>Subscribe to our newsletter</h4>
+        <form class="flex-center"><input type="email" placeholder="Enter email address..."><input type="submit" value="Sign up" class='sign-up-button'></form>
+        <h4><a href="index.html">Privacy</a> and <a href="index.html">user agreement</a></h4>
+        <div class="flex-center">
+            <div class="side-nav-social-media">
+                <div class="circle-icon flex-center"><a href="index.html"><i class="fa fa-instagram"></i></a></div>
+                <div class="circle-icon flex-center"><a href="index.html"><i class="fa fa-facebook-f"></i></a></div>
+                <div class="circle-icon flex-center"><a href="index.html"><i class="fa fa-twitter"></i></a></div>
+                <div class="circle-icon flex-center"><a href="index.html"><i class="fa fa-pinterest-p"></i></a></div>
+                <div class="circle-icon flex-center"><a href="index.html"><i class="fa fa-youtube-play"></i></a></div>
+            </div>
+        </div>    
+	</nav>
+	  
+	<section class="card">
+		<div class="hero-card">
+			<a href="history.html" class="hero-card-header yellow">History</a>
+			<div class="hero-card-img"><a href="history.html"><img src="img/Shoyu_Ramen.jpg" class="card-img" alt="Bowl of Shoyu Ramen"></a></div>
+			<div class="hero-card-content yellow">
+				<a href="history.html" class="article">
+					<h1>Origin</h1>
+					<h3>Discover the humble beginnings of the beloved dish.</h3>
+				</a>
+				<h4>By Guilhem Vellut - <a rel="nofollow" class="external free" href="https://www.flickr.com/photos/o_0/40253823344">https://www.flickr.com/photos/o_0/40253823344</a>, <a href="https://creativecommons.org/licenses/by/2.0" title="Creative Commons Attribution 2.0">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=83241683">Link</a></h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="card light-grey">
+		<div class="triple-card">
+			<div class="single-card white">
+				<a href="history.html"><img src="img/La_mian,_noodles.jpg" class="single-card-img" alt="Chef preparing hand-made ramen noodles"></a>
+				<a href="history.html" class="article"><h2>Etymology</h2></a>
+				<div class="citation">
+					<span>By Youngjediboy at English Wikipedia, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=7075244</span>
+				</div>
+			</div>
+			<div class="middle-card">
+				<div class="floating-header-tag">
+					<a href="history.html" class="triple-card-header yellow">History</a>
+				</div>
+				<div class="middle-single-card">
+					<a href="history.html"><img src="img/initial-appearance.jpg" class="single-card-img" alt="Chefs preparing bowls of Tachi-gui ramen for customers "> </a>
+					<a href="history.html" class="article"><h2>Initial Appearance</h2></a>
+					<div class="citation">
+						<span>By elmimmo - Tachi-gúi ramen, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=47952351</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="single-card white">
+				<!----->
+				<a href="history.html"><img src="img/yatai.jpg" class="single-card-img" alt="Yatai (food stands) at a summer festival"></a>
+				<a href="history.html" class="article"><h2>Postwar Popularization</h2></a>
+				<div class="citation">
+					<span>By Tomomarusan - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=446065</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="card">
+		<div class="hero-card">
+			<a href="ingredients.html" class="hero-card-header black">Ingredients</a>
+			<div class="hero-card-img"><a href="ingredients.html"><img src="img/noodle.jpg" class="card-img" alt="Pile of fresh ramen noodles"></a></div>
+			<div class="hero-card-content black">
+				<a href="ingredients.html" class="article black">
+					<h1>Noodles</h1>
+					<h3>Thick, thin, straight or wrinkled noodles, you've got options.</h3>
+				</a>
+				<h4 >By <a href="https://commons.wikimedia.org/wiki/User:Kropsoq" title="User:Kropsoq" style="color: white">Kropsoq</a> - photo taken by <a href="https://commons.wikimedia.org/wiki/User:Kropsoq" title="User:Kropsoq" style="color: white">Kropsoq</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0" style="color: white">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=333880" style="color: white">Link</a></h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="card light-grey">
+		<div class="triple-card">
+			<div class="single-card">
+				<!---  -->
+				<a href="ingredients.html"><img src="img/Tonkotsu_ramen.jpg" class="single-card-img" alt="Bowl of Tonkotsu Ramen"></a>
+				<a href="ingredients.html" class="article"><h2>Soup</h2></a>
+				<div class="citation">
+					<span>By No machine-readable author provided. Schellack assumed (based on copyright claims). - No machine-readable source provided. Own work assumed (based on copyright claims)., Public Domain, https://commons.wikimedia.org/w/index.php?curid=2317213</span>
+				</div>
+			</div>
+
+			<div class="middle-card">
+				<div class="floating-header-tag">
+					<a href="ingredients.html" class="triple-card-header black">Ingredients</a>
+				</div>
+				<div class="middle-single-card">
+					<!--- -->
+					<a href="ingredients.html"><img src="img/Tokyoramen.jpg" class="single-card-img" alt="Bowl of Shoyu Ramen or Tokyo-style ramen"> </a>
+					<a href="ingredients.html" class="article"><h2>Flavours</h2></a>
+					<div class="citation">
+						<span>By ja:User:Hykw-a4 - 投稿者が撮影, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=496844</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="single-card">
+				<!----->
+				<a href="ingredients.html"><img src="img/miso.jpg" class="single-card-img" alt="Bowl of ramen containing narutomaki, boiled egg, chashu"></a>
+				<a href="ingredients.html" class="article"><h2>Toppings</h2></a>
+				<div class="citation">
+					<span>By Hykw-a4 at ja.Wikipedia - （投稿者が撮影）, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4366364</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="card dark-grey">
+		<div class="medium-card">
+			<!---->
+			<a href="ingredients.html"><img src="img/Ramyeon_in_Republic_of_Korea.jpg" class="single-card-img" alt="Bowl of red ramyeon from the Rupublic of Korea"></a>
+			<a class="article"><h5>Related Dishes</h5></a>
+			<div class="citation">
+				<span>By SungMinSeung - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=70202946</span>
+			</div>
+		</div>
+	</section>
+	
+
+	<section class="card">
+		<div class="hero-card">
+			<a href="/" class="hero-card-header blackborder salmon">In Japan</a>
+			<div class="hero-card-img"><a href="/"><img src="img/Ramenya.jpg" class="card-img" alt="Photo of Ramenya, a ramen restaurant in central Kyoto"></a></div>
+			<div class="hero-card-content salmon">
+				<a class="article">
+					<h1>Ramen Restaurants</h1>
+					<h3>Not sure where to go? Look no further!</h3>
+				</a>
+				<h4>By <a rel="nofollow" class="external text" href="http://www.japanexperterna.se">Japanexperterna</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=33739994">Link</a></h4>
+			</div>
+		</div>
+	</section>
+
+	<section class="card light-grey">
+		<div class="triple-card">
+			<div class="single-card">
+				<!--- -->
+				<a href="index.html"><img src="img/Shinyokohama_ramen_museum.jpg" class="single-card-img" alt="Photo of Shinyokohama Ramen Museum"></a>
+				<a class="article"><h2>Ramen Museum</h2></a>
+				<div class="citation">
+					<span>By Douglas P Perkins (Douglaspperkins (talk)) - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=8981349</span>
+				</div>
+			</div>
+
+			<div class="middle-card">
+				<div class="floating-header-tag">
+					<a href="/" class="triple-card-header blackborder salmon">In&nbspJapan</a>
+				</div>
+				<div class="middle-single-card">
+					<!--- -->
+					<a href="/"><img src="img/can-ramen.jpg" class="single-card-img" alt="A can of Ramen commonly sold in Japanese vending machines"></a>
+					<a class="article"><h2>Canned Ramen</h2></a>
+					<div class="citation">
+						<span>Image from https://www.ramenramenramen.net/2008/07/21/ramen-review-ramen-in-can/</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="single-card">
+				<!--- -->
+				<a href="/"><img src="img/halal-ramen.jpg" class="single-card-img" alt="Outside of Ayam-YA, a halal ramen restaurant"></a>
+				<a class="article"><h2>Halal Ramen</h2></a>
+				<div class="citation">
+					<span>By Helito - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=75932733</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="card dark-grey">
+		<div class="medium-card">
+			<!---->
+			<a href="index.html"><img src="img/CupNoodle.jpg" class="single-card-img" alt="Photo of prepared cup noodles"></a>
+			<a class="article"><h5>Out of Japan</h5></a>
+			<div class="citation">
+				<span>By Rainer Zenz - Self-photographed, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3469955</span>
+			</div>
+		</div>
+	</section>
+</body>
+
+
+
+<footer>
+	<div class="footer-bar"></div>
+	<h1>ramen</h1>
+	<!--USING FONTAWESOME 4.7-->
+	<div class="social-media">
+		<a href="index.html"><i class="fa fa-instagram"></i></a>
+		<a href="index.html"><i class="fa fa-facebook-f"></i></a>
+		<a href="index.html"><i class="fa fa-twitter"></i></a>
+		<a href="index.html"><i class="fa fa-pinterest-p"></i></a>
+		<a href="index.html"><i class="fa fa-youtube-play"></i></a>
+	</div>
+
+	<p>
+		Icons by: <a href="https://fontawesome.com/icons/">FontAwesome</a> and <a href="https://material.io/resources/icons/">MaterialIcons</a><br />
+		Text adapted from: <a href="https://en.wikipedia.org/wiki/Ramen">Wikipedia</a> <br />
+		Layout inspiration: <a href="https://www.bonappetit.com/">bonappetit</a>
+	</p>
+	
+</footer>
+
+<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+	}
+</script>
+</html>
