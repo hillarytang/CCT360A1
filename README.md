@@ -1,2 +1,2 @@
-# CCT360A1
-Responsive website developed for CCT360 - Intermediate Web Design
+# Ramen
+Responsive website developed using Bootstrap. Based on Bon Appetit's website and Wikipedia's article on Ramen
